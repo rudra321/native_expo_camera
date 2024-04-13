@@ -140,7 +140,7 @@ export default function App() {
               style={styles.deleteButton}
               onPress={() => deletePicture(index)}
             >
-              <MaterialIcons name="delete" size={24} color="white" />
+              <MaterialIcons name="cancel" size={24} color="#fff" />
             </TouchableOpacity>
           </TouchableOpacity>
         )}
@@ -182,7 +182,7 @@ const styles = StyleSheet.create({
   },
   camera: {
     width: "100%",
-    aspectRatio: 1, // Ensure camera is square
+    aspectRatio: 1,
   },
   cameraControls: {
     flexDirection: "row",
@@ -206,7 +206,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 5,
     right: 5,
-    backgroundColor: "red",
+    // backgroundColor: "white",
     borderRadius: 15,
     padding: 5,
     zIndex: 1,

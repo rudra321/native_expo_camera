@@ -22,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.oneforall.NativeAssignment"
     },
     "web": {
       "bundler": "metro",
@@ -35,6 +36,17 @@
     "experiments": {
       "typedRoutes": true
     },
-    "permissions": ["CAMERA", "MEDIA_LIBRARY"]
+    "permissions": [
+      "CAMERA",
+      "MEDIA_LIBRARY"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "67673aac-1433-44cf-8970-0e464a5ddb41"
+      }
+    }
   }
 }
